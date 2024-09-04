@@ -33,3 +33,22 @@ const person4 = {
   technology:'Vue js'
 }
 person1.introduce_person.bind(person4, 4)();
+
+// Other Example of Call Methods.......
+
+function SetUserName(username)
+{
+  this.username = username;
+  console.log(username , this);
+}
+
+function CreatUser(username , email , password)
+{
+  SetUserName.call(this , username);
+  this.email = email;
+  this.password = password;
+}
+
+const user = new CreatUser('Aniket', 'aniket@gmail.com', '123456');
+console.log(user);
+
