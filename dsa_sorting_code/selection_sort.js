@@ -1,5 +1,5 @@
 // SELECTION SORT 
-// Time complexity of the Selectio sort is O(n^2).
+// Time complexity of the Selection sort is O(n^2).
 
 function selection_sort(array) {
     for (let i = 0; i < array.length - 1; i++) {
