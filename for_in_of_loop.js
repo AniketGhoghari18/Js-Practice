@@ -1,3 +1,6 @@
+// for in loop gives the key of collection..
+// for of loop gives the value of collection..
+
 const car = {
     make: "Ford",
     model: "Explorer",
