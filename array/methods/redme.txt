@@ -1,0 +1,32 @@
+<------ Below Methods are change original array ------->
+
+push() – Adds elements to the end of the array.
+
+pop() – Removes the last element from the array.
+
+shift() – Removes the first element from the array.
+
+unshift() – Adds elements to the beginning of the array.
+
+splice() – Adds, removes, or replaces elements at a specific index.
+
+sort() – Sorts the elements of the array in place.
+
+reverse() – Reverses the order of the elements in place.
+
+fill() – Fills elements in the array with a static value.
+
+copyWithin() – Copies part of the array to another location within the same array.
+
+
+	                                                                        
+Feature                      splice()       	                                   | slice()                
+                                                                                   |
+Purpose	                     Used to add, remove, or replace elements in an array. | Used to extract a portion of an array without modifying the original array.
+Modifies Original Array?	 Yes (mutates the array).	                           | No (returns a new array).
+Return Value	             Returns an array of the removed elements.	           | Returns a new array with the extracted elements.
+Parameters	                - Start index                                          | - Start index
+                            - Number of elements to remove                         | - End index (exclusive)
+                            - Optional: Elements to add	                           |
+                                                                                   |
+Usage	                     For modifying an array in place.	                   | For creating a copy of a subset of the array.

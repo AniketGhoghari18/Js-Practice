@@ -1,3 +1,5 @@
+// reduce refers to a function that reduces an array or collection to a single value. It processes elements of the array one by one and applies a transformation based on an accumulator pattern.
+
 // const transactions = [
 //     { type: 'deposit', amount: 100 },
 //     { type: 'withdrawal', amount: 50 },
@@ -22,6 +24,7 @@ const products = [
 ]
 
 const pc = products.reduce((acc,product) => {
+    
     if(!acc[product.category]){
         acc[product.category] = []
     }
